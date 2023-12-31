@@ -13,7 +13,7 @@
 .container-two {
     /* flex: 1;
     flex-direction: column; */
-    border: 1px solid gray;
+    border-left: 2px solid #F3F4F6;
     position: relative;
     margin: .5em;
     padding: 4em;
