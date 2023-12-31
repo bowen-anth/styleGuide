@@ -22,7 +22,8 @@
 .buttons-label, 
 .inputs-label,
 .cards-label,
-.colors-label {
+.colors-label,
+.fonts-label {
     position: absolute;
     background-color: #F3F4F6;
     left: 0;
@@ -128,6 +129,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4px;
+    align-items: center;
+}
+
+.input-three-div span {
+    margin-bottom: 4px;
 }
 
 .input-span {
@@ -239,5 +245,13 @@
 }
 
 /* Colors: End */
+
+/* Fonts: Start */
+
+.fonts-label {
+    width: 10rem;
+}
+
+/* Fonts: End */
 
 /* Column Right: End */
