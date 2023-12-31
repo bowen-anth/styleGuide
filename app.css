@@ -127,10 +127,11 @@
 }
 
 .input-three-div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
     /* gap: 4px; */
     align-items: center;
+    text-align: left;
 }
 
 .input-three-div span {
