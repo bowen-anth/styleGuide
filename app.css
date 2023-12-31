@@ -23,7 +23,8 @@
 .inputs-label,
 .cards-label,
 .colors-label,
-.fonts-label {
+.fonts-label,
+.icons-label {
     position: absolute;
     background-color: #F3F4F6;
     left: 0;
@@ -128,12 +129,13 @@
 .input-three-div {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 4px;
+    /* gap: 4px; */
     align-items: center;
 }
 
 .input-three-div span {
     margin-bottom: 4px;
+    margin-left: .5em;
 }
 
 .input-span {
@@ -250,8 +252,75 @@
 
 .fonts-label {
     width: 10rem;
+    margin-top: 0;
+}
+
+.headings-container {
+    margin-top: 3em;
+}
+
+.headings-container p {
+    margin: .75em 0;
+}
+
+.headings-container p:nth-of-type(1) {
+    font-size: 1.75rem;
+    color: #1E1A50;
+}
+
+.headings-container p:nth-of-type(2) {
+    font-size: 1rem;
+    color: #1E1A50;
+}
+
+.headings-container p:nth-of-type(3) {
+    font-size: 0.875rem;
+    color: #1A2950;
+}
+
+.headings-container p:nth-of-type(4) {
+    font-size: 0.875rem;
+    color: #738BFD;
+}
+
+.headings-container p:nth-of-type(5) {
+    font-size: 0.875rem;
+    color: #767E96;
+}
+
+.headings-container p:nth-of-type(6) {
+    font-size: 0.75rem;
+    color: #1A2950;
+}
+
+.headings-container p:nth-of-type(7) {
+    font-size: 0.75rem;
+    color: #767E96;
+}
+
+.headings-container p:nth-of-type(8) {
+    font-size: 0.75rem;
+    color: #F55623;
 }
 
 /* Fonts: End */
 
+/* Icons: Start */
+
+.icons-label {
+    margin-top: 3.25rem;
+}
+
+.icons-container {
+    margin-top: 8rem;
+    width: 26rem;
+}
+
+.icons-container ion-icon {
+    width: 40px;
+    height: 40px;
+    margin: .25em;
+}
+
+/* Icons: End */
 /* Column Right: End */
