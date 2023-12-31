@@ -3,11 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
-    <link rel="stylesheet" src="app.css">
+    <link rel="stylesheet" href="app.css">
+
+    <link rel="icon" href="images/style-guide-icon.svg" sizes="any" type="image/svg+xml">
     <title>Style Guide</title>
 </head>
 <body>
-    
+    <!-- Main Container: Start -->
+    <div class="main-container">
+        <!-- Container 1: Start -->
+        <div class="container-one">
+            <!-- Buttons: Start -->
+            <h1 class="buttons-label">BUTTONS</h1>
+            <div class="button-container">
+                <div class="default-button-container">
+                    <button class="primary-button">Primary Button</button>
+                    <button class="secondary-button">Secondary Button</button>
+                </div>
+                <div class="hovered-button-container">
+                    <button class="primary-button">Primary Button</button>
+                    <button class="secondary-button">Secondary Button</button>
+                </div>
+            </div>
+            <!-- Buttons: End -->
+            
+            <!-- Inputs: Start -->
+            <div class="inputs-container">
+                <form class="form">
+                    <label>Full Name</label>
+                    <input type="text" />
+                    <label>Your Name</label>
+                    <input type="text" />
+                    <label>Password</label>
+                    <input type="password" />
+                    <label>Email Address</label>
+                    <input type="email" />
+                </form>
+            </div>
+            <!-- Inputs: End -->
+
+            <!-- Cards: Start -->
+            <div class="cards-container">
+                <div class="default-card-background-container">
+                    <p>Default Card Background</p>
+                    <div class="default-card">
+
+                    </div>
+                </div>
+                <div class="hovered-card-background-container">
+                    <p>Hovered Card Background</p>
+                    <div class="hovered-card">
+
+                    </div>
+                </div>
+            </div>
+            <!-- Cards: End -->
+
+        </div>
+        <!-- Container 1: End -->
+
+
+        <!-- Container 2: Start -->
+        <div class="container-two">
+            <!-- Colors: Start -->
+            <div class="colors-container">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!-- Colors: End -->
+
+            <!-- Headings: Start -->
+            <div class="headings-container">
+                <p>Page Title | 28px Bold #1E1A50</p>
+                <p>Secondary Title | 16px Bold #1E1A50</p>
+                <p>Tertiary Title | 14px Bold #1A2950</p>
+                <p>Link | Montserrat 14px Medium #738BFD</p>
+                <p>Input Placeholder | 14px Medium #767E96</p>
+                <p>Basic Paragraph | 12px Medium #1A2950</p>
+                <p>Board Summary Label | 12px Medium #767E96</p>
+                <p>Alert Message | 12px Medium #F55623</p>
+            </div>
+            <!-- Headings: End -->
+
+            <!-- Icons: Start -->
+            <div class="icons-container">
+                <ion-icon name="chevron-down-outline"></ion-icon>
+                <ion-icon name="calendar-outline"></ion-icon>
+                <ion-icon name="pencil-outline"></ion-icon>
+                <ion-icon name="search-outline"></ion-icon>
+                <ion-icon name="list-outline"></ion-icon>
+                <ion-icon name="qr-code-outline"></ion-icon>
+                <ion-icon name="color-palette-outline"></ion-icon>
+                <ion-icon name="add-outline"></ion-icon>
+                <ion-icon name="person-circle-outline"></ion-icon>
+                <ion-icon name="images-outline"></ion-icon>
+            </div>
+            <!-- Icons: End -->
+
+        </div>
+        <!-- Container 2: End -->
+    </div>
+    <!-- Main Container: End -->
 </body>
 <script src="app.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </html>
