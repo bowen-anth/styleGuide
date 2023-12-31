@@ -55,6 +55,7 @@
     height: 3rem;
     border-radius: 8px;
     color: #F3F4F6;
+    border: none;
 }
 
 .secondary-button {
@@ -64,6 +65,7 @@
     border-radius: 8px;
     margin: 1em 0;
     color: #242E4C;
+    border: none;
 }
 
 .default-button-container,
