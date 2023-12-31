@@ -333,3 +333,12 @@
 
 /* Icons: End */
 /* Column Right: End */
+
+@media (max-width: 1410px) {
+    .input-three-div {
+       display: flex;
+    }
+    .password-input {
+        flex-shrink: 0;
+    }
+}
