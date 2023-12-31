@@ -14,13 +14,15 @@
         <!-- Container 1: Start -->
         <div class="container-one">
             <!-- Buttons: Start -->
-            <h1 class="buttons-label">BUTTONS</h1>
+            <label class="buttons-label">BUTTONS</label>
             <div class="button-container">
                 <div class="default-button-container">
+                    <p class="default-p">Default</p>
                     <button class="primary-button">Primary Button</button>
                     <button class="secondary-button">Secondary Button</button>
                 </div>
                 <div class="hovered-button-container">
+                    <p class="hovered-p">Hovered</p>
                     <button class="primary-button">Primary Button</button>
                     <button class="secondary-button">Secondary Button</button>
                 </div>
@@ -28,21 +30,34 @@
             <!-- Buttons: End -->
             
             <!-- Inputs: Start -->
+            <label class="inputs-label">INPUTS</label>
             <div class="inputs-container">
                 <form class="form">
                     <label>Full Name</label>
-                    <input type="text" />
-                    <label>Your Name</label>
-                    <input type="text" />
+                    <div class="input-one-div">
+                        <input type="text" />
+                        <span class="input-span">Default</span>
+                    </div>
+                        <label>Your Name</label>
+                    <div class="input-two-div">
+                        <input type="text" />
+                        <span class="input-span">Filled</span>
+                    </div>
                     <label>Password</label>
-                    <input type="password" />
+                    <div class="input-three-div">
+                        <input type="password" />
+                        <span class="input-span">Focused with error msg</span>                    </div>
                     <label>Email Address</label>
-                    <input type="email" />
+                    <div class="input-four-div">
+                        <input type="email" />
+                        <span class="input-span">Inactive</span>
+                    </div>
                 </form>
             </div>
             <!-- Inputs: End -->
 
             <!-- Cards: Start -->
+            <label class="cards-label">Cards</label>
             <div class="cards-container">
                 <div class="default-card-background-container">
                     <p>Default Card Background</p>

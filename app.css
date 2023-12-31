@@ -15,25 +15,32 @@
     flex-direction: column; */
     border: 1px solid gray;
     position: relative;
-    margin: 1em;
-    padding: 6em;
+    margin: .5em;
+    padding: 4em;
 }
 
-.buttons-label {
+.buttons-label, 
+.inputs-label,
+.cards-label {
     position: absolute;
     background-color: #F3F4F6;
     left: 0;
-    font-size: .75em;
-    margin-top: -2em;
-    padding: .25em;
+    font-size: .75rem;
+    margin-top: -3rem;
+    padding: .25rem;
+    padding-right: .5rem;
+    padding-left: 2rem;
     border: 1px solid gray;
+    border-left: none;
     border-radius: 15px;
+    height: 1.75rem;
+    width: 6rem;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
 
 .button-container {
-    margin-top: 1em;
+    margin-top: -1rem;
     display: flex;
     gap: 1em;
 }
@@ -43,6 +50,7 @@
     width: 10rem;
     height: 3rem;
     border-radius: 8px;
+    color: #F3F4F6;
 }
 
 .secondary-button {
@@ -51,6 +59,7 @@
     height: 3rem;
     border-radius: 8px;
     margin: 1em 0;
+    color: #242E4C;
 }
 
 .default-button-container,
@@ -59,26 +68,107 @@
     flex-direction: column;
 }
 
+.default-p,
+.hovered-p {
+    font-style: italic;
+    text-align: center;
+    margin: 1em;
+}
+
 .form {
     display: flex;
     flex-direction: column;
 }
 
-.cards-container {
-    display: flex;
-    gap: 1em;
+/* Inputs: Start */
+
+/* .inputs-label {
+    position: absolute;
+    background-color: #F3F4F6;
+    left: 0;
+    font-size: .75rem;
+    padding: .25rem;
+    padding-right: .5rem;
+    padding-left: 2rem;
+    border: 1px solid gray;
+    border-left: none;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-top: 2rem;
+    height: 1.75rem;
+    width: 6rem;
+} */
+
+.inputs-label {
+    margin-top: 2rem;
 }
 
-.default-card-background-container,
+.inputs-container {
+    margin-top: 5.5em;
+}
+
+.inputs-container input {
+    border: 1px solid gray;
+    border-radius: 8px;
+    height: 2rem;
+    width: 18rem;
+    margin: 0.25rem 0;
+    padding: 0.5em;
+}
+
+.input-three-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+}
+
+.input-span {
+    margin-left: 1rem;
+    font-style: italic;
+    line-height: 1rem;
+}
+
+/* Inputs: End */
+
+/* Cards: Start */
+
+.cards-label {
+    margin-top: 3rem;
+}
+
+.cards-container {
+    margin-top: 6.5rem;
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 26rem;
+}
+
+.default-card-background-container, 
 .hovered-card-background-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 .default-card,
 .hovered-card {
-    height: 60px;
-    width: 60px;
-    border: 1px solid gray;
+    height: 120px;
+    width: 140px;
     margin: 0 auto;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
+
+.default-card {
+    background-color: #F3F4F6;
+}
+
+.hovered-card {
+    background-color: #FFF;
+}
+
+/* Cards: End */
