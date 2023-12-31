@@ -37,6 +37,7 @@
     width: 6rem;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    font-weight: bold;
 }
 
 .button-container {
@@ -106,6 +107,11 @@
 
 .inputs-container {
     margin-top: 5.5em;
+}
+
+.form label {
+    font-weight: bold;
+    font-size: 0.9rem;
 }
 
 .inputs-container input {
