@@ -199,7 +199,7 @@
 .colors-container {
     display: flex;
     gap: 1em;
-    margin-top: 1rem;
+    margin-top: 2.5rem;
 }
 
 .color-box {
@@ -260,7 +260,7 @@
 
 .fonts-label {
     width: 10rem;
-    margin-top: 0;
+    margin-top: -1.5rem;
 }
 
 .headings-container {
@@ -316,11 +316,11 @@
 /* Icons: Start */
 
 .icons-label {
-    margin-top: 3.25rem;
+    margin-top: 2rem;
 }
 
 .icons-container {
-    margin-top: 8rem;
+    margin-top: 7rem;
     margin-left: -.5em;
     width: 26rem;
 }
